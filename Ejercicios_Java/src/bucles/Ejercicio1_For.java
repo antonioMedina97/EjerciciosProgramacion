@@ -1,4 +1,4 @@
-package practicas_clase;
+package bucles;
 
 import javax.swing.JOptionPane;
 

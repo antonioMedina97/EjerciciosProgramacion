@@ -1,4 +1,4 @@
-package practicas_clase;
+package bucles;
 
 import javax.swing.JOptionPane;
 
@@ -6,6 +6,7 @@ public class Ejercicio2_For_Pedir_sumandos {
 
 	public static void main(String[] args) {
 		
+		//Petición al usuario
 		String str = JOptionPane.showInputDialog("Introduzca cantidad de sumandos: ");
 		int cantidad = Integer.parseInt(str);
 		int i = 0;
