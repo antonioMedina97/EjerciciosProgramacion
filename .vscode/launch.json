@@ -1,0 +1,147 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Bloque_3_Ejer_1_suma_0_no<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "bucles.Bloque_3_Ejer_1_suma_0_no",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Bloque_3_Ejer_2_sumaYmedia<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "bucles.Bloque_3_Ejer_2_sumaYmedia",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Bloque_3_Ejer_3_Mayor_no_0<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "bucles.Bloque_3_Ejer_3_Mayor_no_0",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ejercicio1_For<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "bucles.Ejercicio1_For",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ejercicio1_Media_bucles<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "bucles.Ejercicio1_Media_bucles",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ejercicio2_For_Pedir_sumandos<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "bucles.Ejercicio2_For_Pedir_sumandos",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ejercicio_2_mayor_for<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "bucles.Ejercicio_2_mayor_for",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ejercicio_3_for_PositivoNegativo<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "bucles.Ejercicio_3_for_PositivoNegativo",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Acumulador_if<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "practicas_clase.Acumulador_if",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Calculadora<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "practicas_clase.Calculadora",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Contador_if<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "practicas_clase.Contador_if",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ejercicio2<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "practicas_clase.Ejercicio2",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EjercicioHipoteca<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "practicas_clase.EjercicioHipoteca",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ejercicio_3_Switch<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "practicas_clase.Ejercicio_3_Switch",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ejercicio_mayor_5<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "practicas_clase.Ejercicio_mayor_5",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ejercicio_show_el_mayor<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "practicas_clase.Ejercicio_show_el_mayor",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Medias<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "practicas_clase.Medias",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ParOImpar<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "practicas_clase.ParOImpar",
+            "projectName": "Ejercicios_Java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ParOImparDivision<Ejercicios_Java>",
+            "request": "launch",
+            "mainClass": "practicas_clase.ParOImparDivision",
+            "projectName": "Ejercicios_Java"
+        }
+    ]
+}
