@@ -1,7 +1,7 @@
 package arrays;
 
-import javax.swing.JOptionPane;
 
+import toolbox.Utils;
 import toolbox.UtilsArray;
 
 public class Bloque_2_Ejer_3_MultiplicarPorNum {
@@ -17,12 +17,11 @@ public class Bloque_2_Ejer_3_MultiplicarPorNum {
 		}
 		System.out.println(" ");
 		//Request number
-		int num = Integer.parseInt(JOptionPane.showInputDialog("Introduzca número para multiplicar:"));
-		
+		int num = Utils.requestUserNumber("Introduzca número:");
 		//Calculate
 		System.out.println("Resultado:");
 		for (int i = 0; i < array.length; i++) {
-			array[i] = array[i] * num;
+			array[i] *= num;
 			System.out.print(array[i] + " ");
 		}
 	}

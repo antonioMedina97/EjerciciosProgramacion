@@ -16,7 +16,7 @@ public class Bloque_2_Ejer_4_MoverPosicion {
 		//Save first number
 		int buffer = array[0];
 		
-		//Calculate
+		//Operate
 		for (int i = 0; i < array.length; i++) {
 		
 			if (i == 4) {

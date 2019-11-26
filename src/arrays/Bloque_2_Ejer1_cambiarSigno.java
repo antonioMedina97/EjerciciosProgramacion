@@ -12,7 +12,7 @@ public class Bloque_2_Ejer1_cambiarSigno {
 		}
 		System.out.println("\n");
 		for (int i = 0; i < array.length; i++) {
-			array[i] = array[i] * -1;
+			array[i] *= -1;
 			
 			System.out.print(array[i] + " ");
 		}
