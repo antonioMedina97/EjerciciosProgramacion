@@ -13,6 +13,22 @@ public class Perecedero extends Articulo{
 		this.fCaducidad = fecha;
 	
 	}
+
+	/**
+	 * @return the fCaducidad
+	 */
+	public String getfCaducidad() {
+		return fCaducidad;
+	}
+
+	/**
+	 * @param fCaducidad the fCaducidad to set
+	 */
+	public void setfCaducidad(String fCaducidad) {
+		this.fCaducidad = fCaducidad;
+	}
+	
+	
 	
 	
 	
