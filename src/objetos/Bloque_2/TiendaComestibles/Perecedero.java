@@ -3,6 +3,11 @@ package objetos.Bloque_2.TiendaComestibles;
 public class Perecedero extends Articulo{
 	private String fCaducidad;
 
+	
+	
+	public Perecedero() {
+		
+	}
 	/**
 	 * @param codigo
 	 * @param nombre
@@ -13,7 +18,13 @@ public class Perecedero extends Articulo{
 		this.fCaducidad = fecha;
 	
 	}
+	
 
+	@Override
+	/*public String toString() {
+		return "Perecedero [fCaducidad=" + fCaducidad + ", toString()=" + super.toString() + "]";
+	}
+*/
 	/**
 	 * @return the fCaducidad
 	 */
@@ -27,6 +38,8 @@ public class Perecedero extends Articulo{
 	public void setfCaducidad(String fCaducidad) {
 		this.fCaducidad = fCaducidad;
 	}
+
+	
 	
 	
 	

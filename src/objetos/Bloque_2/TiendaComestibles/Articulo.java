@@ -5,17 +5,30 @@ public class Articulo {
 		private int codigo;
 		private String nombre;
 		private float precio;
+		
+		
+		public Articulo() {
+			
+		}
 		/**
 		 * @param codigo
 		 * @param nombre
 		 * @param precio
 		 */
+		
+		
 		public Articulo(int codigo, String nombre, float precio) {
 			super();
 			this.codigo = codigo;
 			this.nombre = nombre;
 			this.precio = precio;
 		}
+		@Override
+		public String toString() {
+			return "Articulo [codigo=" + codigo + ", nombre=" + nombre + ", precio=" + precio + "]";
+		}
+		
+		
 		/**
 		 * @return the codigo
 		 */
@@ -51,6 +64,10 @@ public class Articulo {
 		 */
 		public void setPrecio(float precio) {
 			this.precio = precio;
+		}
+		public String getfCaducidad() {
+			// TODO Auto-generated method stub
+			return null;
 		}
 		
 		
