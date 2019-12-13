@@ -17,7 +17,7 @@ public class Rama extends ElementoArbol {
 	
 	@Override
 	public String toString() {
-		return "Rama [elem1=" + elem1 + ", elem2=" + elem2 + ", elem3=" + elem3 + ", toString()="+ "]";
+		return "Rama [elem1=" + elem1 + ", elem2=" + elem2 + ", elem3=" + elem3 +  "]";
 	}
 
 	/**
