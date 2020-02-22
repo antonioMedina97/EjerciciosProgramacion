@@ -10,12 +10,12 @@ public class Ejer_Nacho_10x10_Sumar_Media {
 		crearMatrizNumerada(matriz);
 		Bloque_4_Ejer_4_matriz.printMatrix(matriz);
 		
-		for (int i = 0; i < matriz.length; i++) {
-			for (int j = 0; j < matriz[i].length; j++) {
-				//necesito igualar la i-1 y j-1 a la posición 0,0 de matriz3x3
-				rellenarMatriz3x3(matriz3x3, i, j);
-			}
-		}
+	//	for (int i = 0; i < matriz.length; i++) {
+	//		for (int j = 0; j < matriz[i].length; j++) {
+	//			//necesito igualar la i-1 y j-1 a la posición 0,0 de matriz3x3
+	//			rellenarMatriz3x3(matriz3x3, i, j);
+	//		}
+	//	}
 		
 		
 		
