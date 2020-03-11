@@ -4,5 +4,11 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/anton/git/TutorialJava/librerias/JDBC_Oracle_Connection_Pool/ucp.jar"/>
 	<classpathentry kind="lib" path="C:/Users/anton/git/TutorialJava/librerias/Driver_MySQL_Connector_J/mysql-connector-java-8.0.19.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/EclipseLink 2.5.2">
+		<attributes>
+			<attribute name="owner.project.facets" value="jpt.jpa"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/MySQL JDBC Driver"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
