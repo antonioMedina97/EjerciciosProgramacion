@@ -20,58 +20,29 @@ public class Main extends JFrame{
 	
 	
 	public Main() {
-		//Creating the window
-		super("Datos del usuario");
-		
 	
 		this.setBounds(0, 0, WIDTH, HEIGHT);
+		
+		this.setContentPane(getPanelPrincipal());
 		this.setVisible(true);
+		
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));	
-		//adding items
+	}
+	
+	public JPanel getPanelPrincipal() {
+		JPanel pnl = new JPanel();
+		pnl.setBackground(Color.cyan);
 		
-		//NAME
-		JPanel panelNombre = new JPanel();
-		panelNombre.add(new JLabel("Nombre"));
-		JTextField txtfld = new JTextField();
-		txtfld.setPreferredSize(new Dimension(100, 24));
-		panelNombre.add(txtfld);
-		this.add(panelNombre);
+		pnl.setLayout(new BoxLayout(pnl, BoxLayout.Y_AXIS));
 		
-		//SURNAME 1
-		JPanel panelAp1 = new JPanel();
-		panelAp1.add(new JLabel("Apellido 1"));
-		JTextField txtAp1 = new JTextField();
-		txtAp1.setPreferredSize(new Dimension(100, 24));
-		panelNombre.add(txtAp1);
-		this.add(panelAp1);
+		//Nombre
+		JPanel pnlNombre = new JPanel();
+		pnlNombre.add(new JLabel("Nombre de usuario:"));
+		pnlNombre.add(new JTextField(40));
+		pnl.add(pnlNombre);
 		
-		//SURNAME 2
-		JPanel panelAp2 = new JPanel();
-		panelAp2.add(new JLabel("Apellido 2"));
-		JTextField txtAp2 = new JTextField();
-		txtAp2.setPreferredSize(new Dimension(100, 24));
-		panelAp2.add(txtAp2);
-		this.add(panelAp2);
+		return pnl;
 		
-		//ID
-		JPanel panelID = new JPanel();
-		panelID.add(new JLabel("DNI"));
-		JTextField txtID = new JTextField();
-		txtID.setPreferredSize(new Dimension(100, 24));
-		panelID.add(txtID);
-		this.add(panelID);
-
-		//LOCALIDAD
-		JPanel panelLocalidad = new JPanel();
-		panelLocalidad.add(new JLabel("Localidad"));
-		JTextField txtLcd = new JTextField();
-		txtLcd.setPreferredSize(new Dimension(100, 24));
-		panelLocalidad.add(txtLcd);
-		this.add(panelLocalidad);
-		
-		//Button
-		this.add(new JButton("Enviar"));
 	}
 
 	public static void main(String[] args) {
